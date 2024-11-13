@@ -2,9 +2,9 @@
 import turtle as t
 t.speed(0)
 potato = 'awesome'
-angle=2
-l=1
+angle=2.5
+l=0.25
 while potato != 'bad':
     t.fd(l)
     t.left(angle)
-    l *= 1.001
+    l *= 1.002
